@@ -14,6 +14,7 @@ package binarysearch;
 
 public class TwoSum_167 { 
     
+    //O(log n)
     public int[] twoSum(int[] numbers, int target) {
         int[] indicies=new int[2];
         int left=0;
